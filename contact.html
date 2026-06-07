@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Charitize is a charity organization dedicated to supporting communities through education, healthcare, food assistance, and sustainable development programs.">
+
+    <title>Charitize - Charity Organization Website Template</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+</head>
+
+<body>
+    <!-- start Spinner -->
+    <div id="spinner" class="show transition position-fixed start-0 top-0 z-3 w-100 vh-100 flex-center bg-white">
+        <div class="spinner-border text-yellow" role="status" style="width: 3rem; height: 3rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- end Spinner -->
+    
+    <!-- start Header -->
+    <header class="container-fluid bg-green wow fadeIn" data-wow-delay="0.1s">
+        <!-- Logo / Contact Info -->
+        <div class="container py-3 py-lg-4 text-center text-lg-start">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="logo h1 text-yellow mb-0">Charitize</a>
+                </div>
+                <div class="col-8 d-none d-lg-flex gap-2 justify-content-between">
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="icon-size flex-center bg-yellow text-black">
+                            <i class="fas fa-phone fa-1x"></i>
+                        </div>
+                        <div>
+                            <p class="text-yellow mb-0">Call Us</p>
+                            <p class="text-white mb-0">+012 345 6789</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="icon-size flex-center bg-yellow text-black">
+                            <i class="fas fa-envelope fa-1x"></i>
+                        </div>
+                        <div>
+                            <p class="text-yellow mb-0">Mail Us</p>
+                            <p class="text-white mb-0">info@domain.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="icon-size flex-center bg-yellow text-black">
+                            <i class="fa fa-location-dot fa-1x"></i>
+                        </div>
+                        <div>
+                            <p class="text-yellow mb-0">Address</p>
+                            <p class="text-white mb-0">123 Street, NY, USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NavBar -->
+        <nav class="navbar container navbar-expand-lg bg-yellow p-3 transition">
+            <h4 class="d-lg-none mb-0">Menu</h4>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fa-1x"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 px-3 transition" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 px-3 transition" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 px-3 transition" aria-current="page" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 px-3 transition" aria-current="page" href="donation.html">Donation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 px-3 transition" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu rounded-0 border-0">
+                            <li><a class="dropdown-item" href="event.html">Event</a></li>
+                            <li><a class="dropdown-item" href="feature.html">Feature</a></li>
+                            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 px-3 transition active" aria-current="page"
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-none d-lg-flex gap-2">
+                    <a class="icon-size flex-center bg-black text-white" href="#" aria-label="Visit our Twitter page">
+                        <i class="fab fa-twitter fa-1x"></i>
+                    </a>
+
+                    <a class="icon-size flex-center bg-black text-white" href="#" aria-label="Visit our Facebook page">
+                        <i class="fab fa-facebook-f fa-1x"></i>
+                    </a>
+
+                    <a class="icon-size flex-center bg-black text-white" href="#"
+                        aria-label="Visit our YouTube channel">
+                        <i class="fab fa-youtube fa-1x"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end Header -->
+
+    <main>
+        <!-- start Breadcrumb -->
+        <section class="container-fluid section-bg py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-4 text-center">
+                <h1 class="display-3 fw-bold wow slideInDown">Contact</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item fs-5"><a class="text-yellow" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item fs-5"><a class="text-yellow" href="#">Pages</a></li>
+                        <li class="breadcrumb-item active fs-5" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+        <!-- end Breadcrumb -->
+
+        <!-- start Video -->
+        <section class="video bg-yellow container-fluid align-content-center mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-auto">
+                        <button type="button"
+                            class="icon border-0 position-relative bg-black flex-center" aria-label="open video modal"
+                            data-bs-toggle="modal" data-bs-target="#videoModal">
+                            <i class="position-relative z-1 text-white fa-2x fas fa-play"></i>
+                        </button>
+
+                        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content rounded-0">
+                                    <div class="modal-header">
+                                        <h2 class="modal-title fs-5" id="videoModalLabel">Youtube Video</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0">
+                                        <div class="ratio ratio-16x9" id="videoFrame"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p class="text-black fs-5 fs-lg-3 fw-medium mb-0">Together, we can build a world where everyone
+                            has the
+                            chance to thrive.</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="scroll bg-green d-none d-md-block text-white text-center py-5">
+                            Scroll Down
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Video -->
+
+        <!-- start Contact -->
+        <section class="contact container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <span class="section-subtitle text-yellow fs-6 text-uppercase position-relative">Contact</span>
+                        <h2 class="display-6 mb-4 mt-3 fw-bold">If You Have Any Query,
+                            Please Contact Us</h2>
+                        <iframe class="w-100 b-0" height="425"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3>Need a functional contact form?</h3>
+                        <p class="mt-3 mb-4">The contact form is currently inactive. Get a functional and working
+                            contact form with Ajax &
+                            PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a
+                                href="#" class="text-yellow text-decoration-underline">Download Now.</a></p>
+
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control rounded-0 p-3" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control rounded-0 p-3" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control rounded-0 p-3" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="w-100 p-3" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit"
+                                    class="donate-btn bg-yellow text-black btn rounded-0 py-3 px-4 shadow">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Contact -->
+
+        <!-- start Banner-->
+        <section class="container-fluid py-5">
+            <div class="container">
+                <div class="banner p-4 p-md-5 text-center section-bg position-relative">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 position-relative z-1">
+                            <h2 class="display-6 fw-bold my-4 wow fadeIn" data-wow-delay="0.1s">Our Door Are Always Open
+                                to
+                                More
+                                People Who Want to
+                                Support Each
+                                Others!</h2>
+                            <p class="fs-5 mb-4 wow fadeIn" data-wow-delay="0.3s">Through your donations and volunteer
+                                work, we spread kindness and
+                                support
+                                to children,
+                                families, and communities struggling to find stability.</p>
+                            <div class="mb-4 d-flex flex-wrap justify-content-center gap-3 wow fadeIn"
+                                data-wow-delay="0.5s">
+                                <a href="#"
+                                    class="donate-btn bg-yellow text-black btn rounded-0 py-3 px-4 shadow">Donate
+                                    Now</a>
+                                <a href="#" class="join-btn bg-green text-white btn rounded-0 py-3 px-4 shadow">Join
+                                    Us Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Banner -->
+
+        <!-- start Newsletter -->
+        <section class="subscribe bg-yellow container-fluid mt-5 py-5 text-center wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-3">
+                <h2 class="display-6 fw-bold mb-4">Subscribe the Newsletter</h2>
+                <form class="row justify-content-center">
+                    <div class="mx-auto bg-white d-flex flex-nowrap py-1 px-2 col-lg-8">
+                        <input class="form-control-lg bg-transparent border-0 w-100" type="text"
+                            placeholder="Enter Your Email">
+                        <button class="bg-transparent border-0" type="submit"><i
+                                class="fa fa-paper-plane fa-2x text-yellow"></i></button>
+                    </div>
+                    <p class="fs-5 mt-2 mb-0">Don't worry, we won't spam you with emails.</p>
+                </form>
+            </div>
+        </section>
+        <!-- end Newsletter -->
+    </main>
+
+    <!-- start Footer -->
+    <footer class="container-fluid py-5 footer-bg wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="text-white mb-4">Our Office</h3>
+                    <ul class="list-unstyled lh-lg fs-6">
+                        <li><i class="fas fa-map-marker-alt me-3"></i>123 Street, New York, USA</li>
+                        <li><i class="fas fa-phone me-3"></i>+012 345 67890</li>
+                        <li><i class="far fa-envelope me-3"></i>info@example.com</li>
+                    </ul>
+                    <div class="social-links d-flex gap-2 mt-4">
+                        <a class="bg-yellow flex-center text-black transition" href="#" title="Twitter"
+                            aria-label="Twitter"><i class="fa-1x fab fa-twitter"></i></a>
+                        <a class="bg-yellow flex-center text-black transition" href="#" title="Facebook"
+                            aria-label="Facebook"><i class="fa-1x fab fa-facebook-f"></i></a>
+                        <a class="bg-yellow flex-center text-black transition" href="#" title="Youtube"
+                            aria-label="Youtube"><i class="fa-1x fab fa-youtube"></i></a>
+                        <a class="bg-yellow flex-center text-black transition" href="#" title="LinkedIn"
+                            aria-label="LinkedIn"><i class="fa-1x fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <ul class="quick-links list-unstyled lh-lg fs-6 d-flex flex-column">
+                        <li><a class="transition" href="about.html">About Us</a></li>
+                        <li><a class="transition" href="contact.html">Contact Us</a></li>
+                        <li><a class="transition" href="services.html">Our Services</a></li>
+                        <li><a class="transition" href="#">Terms &amp; Condition</a></li>
+                        <li><a class="transition" href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="text-white mb-4">Business Hours</h3>
+                    <div>
+                        <div>
+                            <p class="mb-1">Monday - Friday</p>
+                            <p class="text-white fw-bold">09:00 am - 07:00 pm</p>
+                        </div>
+                        <div>
+                            <p class="mb-1">Saturday</p>
+                            <p class="text-white fw-bold">09:00 am - 12:00 pm</p>
+                        </div>
+                        <div>
+                            <p class="mb-1">Sunday</p>
+                            <p class="text-white fw-bold">Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="text-white mb-4">Gallery</h3>
+                    <div class="row row-cols-3 g-2">
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-1.webp" alt="Gallery 1">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-2.webp" alt="Gallery 2">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-3.webp" alt="Gallery 3">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-4.webp" alt="Gallery 4">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-5.webp" alt="Gallery 5">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid w-100" src="images/gallery-6.webp" alt="Gallery 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- Back to Top -->
+    <a href="#" class="scroll-to-top flex-center bg-yellow text-black transition position-fixed z-2 shadow-lg"><i
+            class="fas fa-arrow-up fa-1x"></i></a>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/min.main.js"></script>
+</body>
+
+</html>
